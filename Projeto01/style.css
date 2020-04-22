@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: hsl(500, 43%, 93%);
+  font-size: 16px;
+  font-family: Karla, Helvetica, sans-serif;
+  padding: 2%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: minmax(150px, 350px) repeat(2);
+  grid-template-columns: auto;
+  grid-template-rows: 100%;
+}
+
+.main {
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 122px;
+}
+
+.card-head,
+.card-assinatura,
+.card-about {
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  text-align: center;
+  line-height: 3em;
+}
+.card-head {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.card-head h1 {
+  color: hsl(178, 48%, 44%);
+}
+
+.card-head h3 {
+  color: hsl(71, 73%, 54%);
+}
+
+.card-head p {
+  color: hsl(218, 22%, 67%);
+}
+
+.card-assinatura {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.card-assinatura p {
+  font-size: 12px;
+  color: white;
+}
+
+.card-about {
+  color: white;
+  background-color: hsl(179, 47%, 52%);
+}
+
+.card-about ul li {
+  color: hsl(204, 43%, 93%);
+  text-decoration: none;
+}
+
+button {
+  color: white;
+  font-weight: 700;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  width: 50%;
+  border-radius: 5px;
+
+  left: 50%;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.attribution {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
