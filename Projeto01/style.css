@@ -9,39 +9,43 @@ body {
   font-family: Karla, Helvetica, sans-serif;
   padding: 2%;
   align-items: center;
-  display: grid;
-  grid-template-columns: minmax(150px, 350px) repeat(2);
-  grid-template-columns: auto;
-  grid-template-rows: 100%;
 }
 
-.main {
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 122px;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-right: 18%;
+  padding-left: 18%;
+  margin-top: 4%;
 }
 
 .card-head,
 .card-assinatura,
 .card-about {
   margin: 0px;
-  align-items: center;
-  justify-content: center;
   padding: 2%;
   text-align: center;
-  line-height: 3em;
+  line-height: 2em;
 }
+
 .card-head {
   background-color: hsl(0, 0%, 100%);
+  grid-column-start: 1;
+  grid-column-end: 5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: black;
 }
 
 .card-head h1 {
   color: hsl(178, 48%, 44%);
+  line-height: 2em;
 }
 
 .card-head h3 {
   color: hsl(71, 73%, 54%);
+  line-height: 2em;
 }
 
 .card-head p {
@@ -51,21 +55,37 @@ body {
 .card-assinatura {
   background-color: hsl(179, 62%, 43%);
   color: white;
+  grid-column: 50%;
+  grid-row-start: 2;
+  border-bottom-left-radius: 10px;
+  line-height: 3em;
 }
 
-.card-assinatura p {
+.card-assinatura span {
   font-size: 12px;
+  color: hsl(204, 43%, 93%);
+}
+.card-assinatura p {
+  font-size: 14px;
   color: white;
 }
 
 .card-about {
   color: white;
   background-color: hsl(179, 47%, 52%);
+  grid-column: 50%;
+  grid-row-start: 2;
+  border-bottom-right-radius: 10px;
+}
+
+.card-about h2 {
+  margin: 5px;
 }
 
 .card-about ul li {
   color: hsl(204, 43%, 93%);
-  text-decoration: none;
+  list-style: none;
+  line-height: 1.5em;
 }
 
 button {
@@ -84,19 +104,26 @@ button {
   justify-content: center;
   width: 50%;
   border-radius: 5px;
-
   left: 50%;
 }
 
 .button:hover {
-  opacity: 1;
+  background-color: hsl(71, 100%, 41%);
 }
 
 .attribution {
   margin-top: 15px;
-  font-size: 14px;
   text-align: center;
+  display: block;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  font-weight: 400px;
+  font-size: 16px;
+}
+
+.attribution a:hover {
+  color: hsl(71, 73%, 54%);
+  cursor: pointer;
 }
