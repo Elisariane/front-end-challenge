@@ -12,9 +12,9 @@ Inicialmente a meta é desenvolver os **16 projetos** sugeridos pelo fundador do
 
 #### Projetos Desenvolvidos 👩‍💻
 
-| Projeto                                             | Descrição                                                                   | Tecnologias | Dificuldade | Link                                                 |
-| --------------------------------------------------- | --------------------------------------------------------------------------- | ----------- | ----------- | ---------------------------------------------------- |
-| **Projeto 01 - Componente Simples de Preço (Grid)** | Nesse desafio, você criará o componente de preço com os designs fornecidos. | `HTML, CSS` | Newbie 👶   | **[Ir para Repositório](../../Projeto01/README.md)** |
+| Projeto                                             | Descrição                                                                   | Tecnologias | Dificuldade | Link                                             |
+| --------------------------------------------------- | --------------------------------------------------------------------------- | ----------- | ----------- | ------------------------------------------------ |
+| **Projeto 01 - Componente Simples de Preço (Grid)** | Nesse desafio, você criará o componente de preço com os designs fornecidos. | `HTML, CSS` | Newbie 👶   | **[Ir para Repositório](./Projeto01/README.md)** |
 
 #### Links e Recursos Adicionais 🚀📚
 
